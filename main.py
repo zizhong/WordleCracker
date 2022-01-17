@@ -92,4 +92,3 @@ def cracker():
 
 if __name__ == '__main__':
     cracker()
-    # print(len(words))
