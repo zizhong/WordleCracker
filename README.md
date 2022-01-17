@@ -1,3 +1,3 @@
 # WordleCracker
 
-WordlerSolver
+WordleSolver
