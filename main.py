@@ -1,9 +1,10 @@
 import os
 import urllib.request
 
-file_path = os.path.realpath(__file__)
-input_dir = os.path.join(file_path, '..', 'input')
+file_dir = os.path.dirname(os.path.realpath(__file__))
+input_dir = os.path.join(file_dir, 'input')
 input_path = os.path.join(input_dir, 'input.txt')
+
 
 MAX_CNT = 20000
 INPUT_PROMPT = "Please enter the command:\n"
